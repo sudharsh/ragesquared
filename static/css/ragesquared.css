@@ -1,0 +1,18 @@
+body {
+    font-family: trebuchet ms, helvetica, sans-serif;
+}
+    
+
+#stage {
+    height: 600px;
+    border-style: dashed;
+    border-color: #404040;
+    border-width: 2px;
+    
+}
+
+
+#header {
+    padding: 30px;
+    font-size: xx-large;
+}

@@ -1,0 +1,28 @@
+{% extends "base.html" %}
+{% block title %}Rage Squared{% endblock %}
+{% block head %}
+{{ super() }}
+<link rel="stylesheet" type="text/css" href="static/css/ragesquared.css">    
+<script type="text/javascript" src="static/js/jquery.js"> </script>
+<script type="text/javascript" src="static/js/raphael-min.js"> </script>
+<script type="text/javascript" src="static/js/ragesquared.js"> </script>
+{% endblock %}
+
+
+{% block body %}
+<div id="header" class="container container_12">
+  <div class="grid_4">Rage Squared</div>
+  <span id="score" class="prefix_2">0</span>
+  <span id="timer" class="prefix_4">69</span>
+</div>
+<div class="clear"></div>
+<div id="content" class="container container_12">
+  <div id="stage">
+  </div>
+  <div id="coords">
+  </div>
+</div>
+{% endblock %}
+
+  
+
