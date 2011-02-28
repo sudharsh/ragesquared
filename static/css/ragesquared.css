@@ -1,18 +1,64 @@
 body {
     font-family: trebuchet ms, helvetica, sans-serif;
+    background-color: #f3d219;
 }
-    
+
+a {
+    text-decoration: none;
+}
+
+a:link, a:visited {
+    color: #6c6c6d;
+}
+
+a:hover {
+    color: black;
+}
+
+#footer {
+    padding: 10px;
+    font-size: small;
+    font-family: monospace;
+    font-color: #747474;
+    text-align: center;
+}
+
+#welcome, #header, #summary {
+    font-family: 'Unkempt', arial, serif;
+}
+
+#welcome, #summary {
+    text-align: center;
+    margin-top: 150px;
+}    
+
+#summary {
+    margin-bottom: 30px;
+}
+
+#welcome_header {
+    font-size: 60px;
+    text-shadow: #333 1px 2px 0.07em;
+        
+}
+
+#start {
+    margin-top: 50px;
+    margin-bottom: 100px;
+    font-size: xx-large;
+}
 
 #stage {
     height: 600px;
     border-style: dashed;
     border-color: #404040;
     border-width: 2px;
-    
+    background-color: #f3f2ea;    
 }
 
 
-#header {
+#header, #final_score {
     padding: 30px;
+    font-weight: 400;
     font-size: xx-large;
 }

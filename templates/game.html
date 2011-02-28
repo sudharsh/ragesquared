@@ -10,16 +10,33 @@
 
 
 {% block body %}
+<div id="welcome">
+  <div id="welcome_header" class="container container_12">
+    Rage Squared
+  </div>
+  <div id="start"><a href="#">Start</a></div>
+</div>
+
+<div id="game">
 <div id="header" class="container container_12">
   <div class="grid_4">Rage Squared</div>
   <span id="score" class="prefix_2">0</span>
-  <span id="timer" class="prefix_4">69</span>
+  <span id="timer" class="prefix_4">-</span>
 </div>
 <div class="clear"></div>
 <div id="content" class="container container_12">
   <div id="stage">
   </div>
   <div id="coords">
+  </div>
+</div>
+</div>
+
+<div id="summary">
+  <div id="final_score">
+  </div>
+  <div id="play_again">
+    <a href="#">Play again</a>
   </div>
 </div>
 {% endblock %}
