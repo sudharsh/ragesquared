@@ -34,7 +34,7 @@ function startGame(paper) {
         function() {
             score = score - 25;
             $("#score").html(score);
-            refreshPosition(rect, 700);
+            refreshPosition(troll_face, 700);
         }
     );
     var intervalId = window.setInterval(refreshPosition, 700, troll_face);
